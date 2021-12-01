@@ -23,23 +23,13 @@ git clone git://github.com/seyhadot/config.git ~/.dotfiles
 
 cd ~/.dotfiles && brew bundle
 
-ln -f -s ~/.dotfiles/zshrc ~/.zshrc
-ln -s ~/.dotfiles/aliases ~/.aliases
-
 ln -s ~/.dotfiles/vim ~/.vim
 ln -s ~/.dotfiles/vimrc ~/.vimrc
 mkdir -p ~/.config/nvim
 ln -s ~/.dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
-ln -s ~/.dotfiles/gemrc ~/.gemrc
-ln -s ~/.dotfiles/irbrc ~/.irbrc
-ln -s ~/.dotfiles/gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/gitignore_global ~/.gitignore_global
-ln -s ~/.dotfiles/ctags ~/.ctags
-ln -s ~/.dotfiles/ackrc ~/.ackrc
-ln -s ~/.dotfiles/agignore ~/.agignore
-ln -s ~/.dotfiles/gitmessage ~/.gitmessage
-ln -s ~/.dotfiles/starship.toml ~/.starship.toml
+ln -s ~/.dotfiles/omf.fish ~/.config/fish/conf.d/omf.fish
+
 
 vim +PlugInstall +qall
