@@ -1,6 +1,6 @@
 # My config
 
-git clone https://github.com/seyhadot/config/blob/master/installer.sh
+git clone git@github.com:seyhadot/config.git
 
 
 curl https://raw.githubusercontent.com/seyhadot/config/master/installer.sh | sh
