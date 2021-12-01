@@ -1,0 +1,120 @@
+[
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+'",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.files.action.refreshFilesExplorer"
+  },
+  {
+    "key": "shift+cmd+[",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+shift+m",
+    "command": "extension.selectTextInBracket"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "m",
+    "command": "-acceptRenameInput",
+    "when": "editorFocus && renameInputVisible"
+  },
+  {
+    "key": "escape",
+    "command": "-cancelRenameInput",
+    "when": "editorFocus && renameInputVisible"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.terminal.searchWorkspace",
+    "when": "terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument.none",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-extension.vim_navigateCtrlL",
+    "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "-notebook.centerActiveCell",
+    "when": "notebookEditorFocused"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-togglePreserveCase",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-toggleSearchPreserveCase",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "-keybindings.editor.toggleSortByPrecedence",
+    "when": "inKeybindings"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.emmet.action.expandAbbreviation",
+    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  },
+  {
+    "key": "alt+cmd+p",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  }
+]
