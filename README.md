@@ -1,7 +1,8 @@
 # My config
 
-git clone git@github.com:seyhadot/config.git
+	git clone git@github.com:seyhadot/config.git
 
+install config
 
-curl https://raw.githubusercontent.com/seyhadot/config/master/installer.sh | sh
+	curl https://raw.githubusercontent.com/seyhadot/config/master/installer.sh | sh
 
