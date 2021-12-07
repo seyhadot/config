@@ -3,9 +3,9 @@
 curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 brew tap mongodb/brew
 brew tap koekeishiya/formulae 
+brew install --HEAD tree-sitter luajit neovim
 
-
-brew install curl git fish tmux neovim python3 nodejs yarn wget fish mongodb-community@5.0 yabai skhd
+brew install curl git fish tmux python3 nodejs yarn wget fish mongodb-community@5.0 yabai skhd
 
 sudo spctl --master-disable
 sh -c "$(curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher)"
@@ -36,6 +36,7 @@ ln -s ~/.dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/omf.fish ~/.config/fish/conf.d/omf.fish
+ln -s ~/.dotfiles/kitty.conf ~/.config/kitty/kitty.conf
 
 
 vim +PlugInstall +qall
