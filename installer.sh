@@ -38,5 +38,4 @@ ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/omf.fish ~/.config/fish/conf.d/omf.fish
 ln -s ~/.dotfiles/kitty.conf ~/.config/kitty/kitty.conf
 
-
-vim +PlugInstall +qall
+vim +PackerInstall +qall
