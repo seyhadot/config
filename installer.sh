@@ -7,6 +7,7 @@ brew install --HEAD tree-sitter luajit neovim
 
 brew install curl git fish tmux python3 nodejs yarn wget fish mongodb-community@5.0 yabai skhd
 
+
 sudo spctl --master-disable
 sh -c "$(curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher)"
 
@@ -22,6 +23,9 @@ echo 'rvm default' >> ~/.config/fish/config.fish
 cp /usr/local/opt/yabai/share/yabai/examples/yabairc ~/.yabairc
 cp /usr/local/opt/yabai/share/yabai/examples/skhdrc ~/.skhdrc
 
+mkdir -p ~/.local/share/nvim/site/pack/coc/start
+cd ~/.local/share/nvim/site/pack/coc/start
+git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
 
 git clone git://github.com:seyhadot/config.git ~/.dotfiles
 
