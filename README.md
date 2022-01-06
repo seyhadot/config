@@ -1,11 +1,11 @@
 # My minimal dotfiles
 
-![screenshot](screenshot.png)
+<!-- ![screenshot](screenshot.png) -->
 
 Links to some stuff I use on my m1 mbp:
- # mkdir -p ~/.local/share/nvim/site/pack/coc/start
- # cd ~/.local/share/nvim/site/pack/coc/start
- # git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
+  mkdir -p ~/.local/share/nvim/site/pack/coc/start
+  cd ~/.local/share/nvim/site/pack/coc/start
+  git clone --branch release https://github.com/neoclide/coc.nvim.git --depth=1
 
 
 ### Where is my neovim config?
