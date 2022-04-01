@@ -245,11 +245,11 @@ return require('packer').startup(function(use)
     requires = {'hrsh7th/nvim-cmp'}
   }
 
-  use {
-    "mhartington/formatter.nvim",
-    event = "BufWritePre",
-    config = get_config("formatter")
-  }
+--  use {
+--  "mhartington/formatter.nvim",
+--    event = "BufWritePre",
+--    config = get_config("formatter")
+-- }
 
   use {"windwp/nvim-autopairs", config = get_config("autopairs")}
   use {
