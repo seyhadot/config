@@ -10,6 +10,21 @@ source $OMF_PATH/init.fish
 # set PATH $HOME/.rbenv/bin $PATH
 # set PATH $HOME/.rbenv/shims $PATH
 
+# Ubuntu
+
+# set --export ANDROID $HOME/Android;
+
+# set --export ANDROID_HOME $ANDROID/Sdk;
+# set -gx PATH $ANDROID_HOME/tools $PATH;
+# #set -gx PATH $ANDROID_HOME/usr/local/opt/android-sdk $PATH;
+# set -gx PATH $ANDROID_HOME/platform-tools $PATH;
+
+
+# ----------------------------------
+
+
+
+
 # set --export (pwd)/flutter/bin $PATH
 set -gx PATH $PATH $HOME/.deno/bin
 set -gx PATH $PATH $HOME/flutter/bin
