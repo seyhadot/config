@@ -2,6 +2,10 @@
 
 <!-- ![screenshot](screenshot.png) -->
 
+```
+  sudo usermod -s /usr/bin/fish sino
+```
+
 Links to some stuff I use on my m1 mbp:
 ```
   mkdir -p ~/.local/share/nvim/site/pack/coc/start
